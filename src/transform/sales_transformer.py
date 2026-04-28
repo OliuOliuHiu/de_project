@@ -1,4 +1,6 @@
 import pandas as pd
-from src.extract import csv_reader, get_data_csv
+from src.extract import fetch_users, get_data_csv
 
 
+df_api = fetch_users()
+print(df_api.head(5))
