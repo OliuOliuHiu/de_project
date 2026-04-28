@@ -1,0 +1,9 @@
+order_id,user_id,product,quantity,price,order_date
+1,1,Laptop,1,1200,2026-04-01
+2,2,Mouse,2,25,2026-04-01
+3,1,Keyboard,1,80,2026-04-02
+4,3,Monitor,2,300,2026-04-02
+5,4,USB Cable,5,10,2026-04-03
+6,99,Headphone,1,150,2026-04-03
+7,2,Laptop Stand,1,45,2026-04-04
+8,3,Mouse Pad,3,12,2026-04-04
