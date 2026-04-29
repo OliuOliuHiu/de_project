@@ -7,3 +7,6 @@ order_id,user_id,product,quantity,price,order_date
 6,99,Headphone,1,150,2026-04-03
 7,2,Laptop Stand,1,45,2026-04-04
 8,3,Mouse Pad,3,12,2026-04-04
+9,4,Asus Zenbook,2,900,2026-04-06
+10,4,Asus Zenbook,3,800,2026-05-06
+11,3,Lenovo,3,800,2026-05-06

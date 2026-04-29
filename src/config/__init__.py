@@ -1,1 +1,1 @@
-from .settings import API_URL, DATA_PATH
+from .settings import API_URL, DATA_PATH, DB_NAME, DB_HOST, DB_PORT, DB_PASSWORD, DB_USER
