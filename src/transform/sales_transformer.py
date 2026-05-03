@@ -39,7 +39,9 @@ def transform_data(df_api,df_csv):
     df_fact_sales['order_date'] = pd.to_datetime(
         df_fact_sales['order_date']
     )
-
+    df_fact_sales['updated_at'] = pd.to_datetime(
+        df_fact_sales['updated_at']
+    )
     df_fact_sales['order_month'] = (
         df_fact_sales['order_date'].dt.strftime("%Y-%m")
     )
@@ -52,7 +54,8 @@ def transform_data(df_api,df_csv):
         'product',
         'quantity',
         'total_amount',
-        'order_month'
+        'order_month',
+        'updated_at'
     ]
 
     df_fact_sales = df_fact_sales[columns_list]

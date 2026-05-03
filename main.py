@@ -8,8 +8,8 @@ def main():
     df_sale = get_data_csv()
 
     df_transform = transform_data(df_user,df_sale)
-
-    incremental_load(df_transform,'sales_data','sales')
+    
+    incremental_load(df_transform,'sales','staging','sales_data')
     
 
 if __name__ == "__main__":
